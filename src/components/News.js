@@ -9,7 +9,11 @@ export class News extends Component {
           <h3>Your Headlines</h3>
           <div className="row">
             <div className="col md - 4">
-              <NewsItem title="hi" description="first card" />
+              <NewsItem
+                title="hi"
+                description="first card"
+                imageUrl="https://ichef.bbci.co.uk/news/1024/branded_news/5D8B/production/_129874932_gettyimages-1253790493-594x594.jpg"
+              />
             </div>
             <div className="col md - 4">
               <NewsItem title="hi" description="first card" />
