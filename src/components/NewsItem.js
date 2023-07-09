@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class NewsItem extends Component {
-  render() {
-    let { title, description, imageUrl, newsUrl, author, date,source } = this.props;
+export const NewsItem = (props) =>{
+    let { title, description, imageUrl, newsUrl, author, date,source } = props;
 
     return (
       <div>
@@ -22,7 +21,7 @@ export class NewsItem extends Component {
             </p>
             <a
               href={newsUrl}
-              target="_blank"
+              target="/"
               className="btn btn-sm btn-primary"
             >
               Read More
@@ -31,7 +30,7 @@ export class NewsItem extends Component {
         </div>
       </div>
     );
-  }
+
 }
 
 export default NewsItem;
