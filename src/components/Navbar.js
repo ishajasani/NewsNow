@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export class Navbar extends Component {
@@ -10,7 +10,7 @@ export class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/general">
               NewsHelp
             </Link>
             <button
